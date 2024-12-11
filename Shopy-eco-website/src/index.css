@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light{
+    /* background-color: #c9af98; */
+    /* background-color: #3a4660; */
+    /* background-color: #ed8a63; */
+    /* background-color: #845007 */ 
+
+    background-color: white;
+    color: #845007;
+
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    background-image: url('/hero.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+
+.about {
+    background-image: url('/about.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 80vh;
+  
+
+}
